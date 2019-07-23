@@ -1,4 +1,4 @@
-import log
+from handlers import log
 log.info("Importing modules...")
 try:
     import requests
@@ -6,7 +6,7 @@ except ModuleNotFoundError:
     log.error("Required module \'requests\' not found.\n\nPlease enter the following command to install the module: \'pip install requests\'\nRerun the program when this is complete.")
 import sys
 import os
-import zip
+from handlers import zip
 log.success("Modules imported successfully!")
 
 log.info("Getting user...")

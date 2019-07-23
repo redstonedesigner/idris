@@ -32,6 +32,3 @@ def main(directory):
             zip.write(file)
 
     log.success('All files zipped successfully!')
-    log.info("Deleting unzipped files...")
-    shutil.rmtree(directory)
-    log.success("Unzipped files deleted!")
