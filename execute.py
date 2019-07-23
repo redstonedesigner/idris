@@ -6,8 +6,12 @@ except ModuleNotFoundError:
     log.error("Required module \'requests\' not found.\n\nPlease enter the following command to install the module: \'pip install requests\'\nRerun the program when this is complete.")
 import sys
 import os
-from handlers import zip
+from handlers import zip, config
 log.success("Modules imported successfully!")
+
+log.info("Loading config...")
+config = config.getConfig()
+log.success("Config loaded successfully!")
 
 log.info("Getting user...")
 usernameURL = "https://api.roblox.com/users/"+sys.argv[1]
