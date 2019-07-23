@@ -5,7 +5,6 @@ friends:
   join-date: true
   player-badges: false
   assets: false
-  favourite-games: false
   gamepasses: false
 
 main-user:
@@ -14,5 +13,4 @@ main-user:
   friends: true
   player-badges: false
   assets: false
-  favourite-games: false
   gampeasses: false
