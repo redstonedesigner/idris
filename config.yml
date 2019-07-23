@@ -1,0 +1,18 @@
+friends:
+  descriptions: false
+  groups-in-common: true
+  friends-in-common: true
+  join-date: true
+  player-badges: false
+  assets: false
+  favourite-games: false
+  gamepasses: false
+
+main-user:
+  description: true
+  groups: true
+  friends: true
+  player-badges: false
+  assets: false
+  favourite-games: false
+  gampeasses: false
