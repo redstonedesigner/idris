@@ -16,7 +16,7 @@ log.success("Config loaded successfully!")
 log.info("Getting user...")
 usernameURL = "https://api.roblox.com/users/"+sys.argv[1]
 usernameRequest = requests.get(url = usernameURL)
-if usernameRequest.status_code == 400:
+if usernameRequest.status_code == 404:
     log.error("User not found.  Please check your input and try again.")
     sys.exit(1)
 usernameData = usernameRequest.json()

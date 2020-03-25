@@ -1,6 +1,6 @@
 from zipfile import ZipFile
 import os
-import log
+from handlers import log
 import sys
 import shutil
 

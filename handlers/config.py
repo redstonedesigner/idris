@@ -6,7 +6,7 @@ except ImportError:
     from yaml import Loader, Dumper
 
 def getConfig():
-    with open("../config.yml","r") as file:
+    with open("config.yml","r") as file:
         config = file.read()
         file.close()
     return config
